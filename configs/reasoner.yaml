@@ -1,7 +1,7 @@
 # 模型配置
 model: "deepseek-reasoner"
 base_url: "https://api.deepseek.com"
-api_key: "sk-5309e682a1f24b3ab0188b0caca7b9cb"  # 替换为实际 API Key
+api_key: ""  # 替换为实际 API Key
 
 # 生成参数
 max_tokens: 1024
