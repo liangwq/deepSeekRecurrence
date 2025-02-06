@@ -1,0 +1,20 @@
+# 模型配置
+model: "deepseek-reasoner"
+base_url: "https://api.deepseek.com"
+api_key: "sk-5309e682a1f24b3ab0188b0caca7b9cb"  # 替换为实际 API Key
+
+# 生成参数
+max_tokens: 1024
+temperature: 0.3
+top_p: 0.9
+system_prompt: |
+  你是一个数学问题解决专家，必须严格遵循以下步骤：
+  1. 分解问题为多个子步骤
+  2. 为每个步骤提供详细推理
+  3. 最终答案用【答案】标记
+
+# 搜索策略
+search:
+  algorithm: "mcts"     # mcts / bfs / dfs
+  exploration_weight: 1.414
+  max_depth: 5
