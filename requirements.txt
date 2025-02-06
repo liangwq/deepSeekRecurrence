@@ -1,0 +1,19 @@
+# 基础框架
+transformers>=4.30.0        # Hugging Face Transformers（模型加载与生成）
+torch>=2.0.0                # PyTorch（深度学习框架）
+accelerate>=0.20.0          # Hugging Face Accelerate（分布式训练优化）
+bitsandbytes>=0.41.0        # 模型量化（4/8-bit推理与训练）
+
+# 树结构与搜索
+anytree>=2.8.0              # 树结构管理与可视化
+
+# API调用与数据处理
+requests>=2.31.0            # HTTP请求（调用DeepSeek API）
+numpy>=1.23.0               # 数值计算
+
+# 可选：本地模型下载
+huggingface_hub>=0.16.0     # Hugging Face模型仓库访问
+
+# 可选：强化学习训练（CPU场景）
+scikit-learn>=1.2.0         # 数据预处理（特征编码）
+tqdm>=4.65.0                # 进度条显示
