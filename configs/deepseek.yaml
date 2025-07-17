@@ -1,5 +1,5 @@
 # DeepSeek API 配置
-api_key: "sk-5309e682a1f24b3ab0188b0caca7b9cb"          # 替换为实际 API Key
+api_key: ""          # 替换为实际 API Key
 base_url: "https://api.deepseek.com"
 model: "deepseek-chat"       # 使用思维链模型
 system_prompt: |
